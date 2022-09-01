@@ -14,5 +14,4 @@ def main(A,B):
     while i < len(list1):
         answer = answer + list1[i]
         i+=1
-    
     return answer
