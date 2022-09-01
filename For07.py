@@ -6,4 +6,8 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    answer = 0
+    for i in range(N):
+        if i%2:
+            answer += i
+    return answer
