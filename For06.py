@@ -7,4 +7,12 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    i=0
+    answer=0
+    list1 = range(A,B)
+    list1 = list(list1)
+    while i < len(list1):
+        answer = answer + list1[i]
+        i+=1
+    
+    return answer
